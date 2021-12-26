@@ -1,0 +1,103 @@
+.advertising {
+  background-color: var(--color-black);
+}
+
+.advertising__container {
+  padding-top: 94px;
+  padding-bottom: 133px;
+  color: var(--color-white);
+}
+
+.advertising-left {
+  width: 60%;
+  height: 100%;
+}
+
+.advertising-swiper-slade {
+  position: relative;
+  background-color: var(--color-black);
+}
+
+.advertising__banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*.advertising-swiper-slade {*/
+/*  height: 100%;*/
+/*  background-position: center;*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: cover;*/
+/*  !*transition: background-image 0.5s ease-in-out;*!*/
+/*  !*animation: grow 8s ease-in-out infinite alternate;*!*/
+/*}*/
+
+/*.advertising-swiper-slide_1 {*/
+/*  background-image: url(../../img/radio_red.png);*/
+/*}*/
+
+/*.advertising-swiper-slide_2 {*/
+/*  background-image: url(../../img/radio_blue.png);*/
+/*}*/
+
+/*.advertising-swiper-slide_3 {*/
+/*  background-image: url(../../img/radio_green.png);*/
+/*}*/
+
+
+
+
+.advertising-right {
+  width: 40%;
+}
+
+.advertising__title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  color: var(--color-promo);
+}
+
+.divider__advertising {
+  margin-bottom: 19px;
+  height: 10px;
+  background-image: url("../../img/wave-min.svg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.advertising__text {
+  margin-bottom: 12px;
+  line-height: 180%;
+}
+
+.advertising__text--alert {
+  font-weight: 500;
+  color: var(--color-promo);
+}
+
+.advertising__price {
+  display: block;
+  padding: 18px 0 30px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.advertising__btn {
+  display: flex;
+  align-items: center;
+  padding: 25px 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--color-promo);
+  border-color: currentColor;
+  background-color: transparent;
+}
+
+.advertising__btn svg {
+  margin-right: 8px;
+}
