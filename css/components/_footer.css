@@ -4,19 +4,23 @@
 }
 
 .footer-top {
+  padding-top: 94px;
+  padding-bottom: 65px;
+}
+
+.footer__wrap {
   display: flex;
   justify-content: space-between;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
+
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .social-footer__items:not(:last-child) {
-  margin-right: 23px;
+  margin-right: 21px;
 }
 
 .social-footer__link svg {
@@ -32,12 +36,13 @@
 }
 
 .footer-nav__link {
+  /*padding: 2px 3px;*/
   line-height: 16px;
 }
 
 .divider__footer {
-  margin-bottom: 19px;
-  height: 10px;
+  margin-bottom: 5px;
+  height: 16px;
   background-image: url(../../img/wave.svg);
   background-repeat: repeat-x;
   background-size: 90%;
@@ -45,6 +50,7 @@
 
 .footer-bottom {
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .trademark {

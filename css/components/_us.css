@@ -10,7 +10,7 @@
 
 .us-top {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .us-top svg:first-of-type {
@@ -18,12 +18,12 @@
 }
 
 .us__title {
-  margin-bottom: 12px;
+  margin-bottom: 9px;
   color: var(--color-white);
 }
 
 .us__info {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   margin-right: 30px;
   max-width: 634px;
   font-size: 20px;
@@ -32,9 +32,18 @@
 }
 
 .us__info--alert {
-  margin-bottom: 8px;
+  display: inline-block;
+  margin-bottom: 9px;
   font-weight: 700;
   line-height: 150%;
+}
+
+.use-info_img-1 {
+  transform: translateY(-4px);
+}
+
+.use-info_img-2 {
+  transform: translateY(16px);
 }
 
 .us__list {
@@ -45,11 +54,11 @@
 }
 
 .us-card__img {
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .us-card__name {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -69,7 +78,7 @@
 /*}*/
 
 .us-feedback__textarea {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   padding: 30px;
   width: 100%;
   height: 150px;
@@ -107,8 +116,8 @@
 
 .us-feedback__btn {
   display: block;
-  margin-bottom: 30px;
-  padding: 25px 54px;
+  margin-bottom: 31px;
+  padding: 23px 52px;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -138,7 +147,7 @@
 .us-checkbox__text::before {
   content: "";
   display: inline-block;
-  margin-right: 12px;
+  margin-right: 8px;
   width: 14px;
   height: 14px;
   border: 1px solid var(--color-white);

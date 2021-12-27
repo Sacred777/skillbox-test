@@ -13,9 +13,9 @@
   padding-left: 5px;
 }
 
-.top-nav {
-  transform: translate(-3px, 1px);
-}
+/*.top-nav {*/
+/*  transform: translate(-3px, 1px);*/
+/*}*/
 
 .top-nav__item:not(:last-child) {
   margin-right: 49px;
