@@ -5,7 +5,7 @@
 
 .guests__container {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 89px;
 }
 
 .guests__title {
@@ -15,12 +15,14 @@
 
 .guests__descr {
   margin-bottom: 50px;
+  max-width: 825px;
   font-size: 20px;
   line-height: 160%;
   color: var(--color-text_gray);
 }
 
 .guests__descr--bold {
+  display: inline-block;
   margin-bottom: 6px;
   font-weight: 700;
 }
@@ -30,12 +32,12 @@
 }
 
 .accordion__wrap {
-  width: 60%;
+  width: 78%;
 }
 
 .ui-accordion-header {
   position: relative;
-  padding: 35px 0;
+  padding: 34px 0;
   cursor: pointer;
   transition-property: color, background-color, border-color;
   transition-duration: 0.3s;
@@ -53,10 +55,10 @@
 .ui-accordion-header::before {
   content: '';
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 42px;
+  height: 42px;
   top: 50%;
-  right: 0;
+  right: 5px;
   transform: translateY(-50%);
   border-radius: 50%;
   border: 2px solid var(--color-text_gray);
@@ -68,11 +70,11 @@
   content: '';
   position: absolute;
   top: 47%;
-  right: 18px;
+  right: 19px;
   width: 12px;
   height: 12px;
-  border-bottom: 1px solid var(--color-text_gray);
-  border-right: 1px solid var(--color-text_gray);
+  border-bottom: 2px solid var(--color-text_gray);
+  border-right: 2px solid var(--color-text_gray);
   transform: translateY(-50%) rotate(45deg);
   transition: transform 0.3s ease-in-out;
 }
@@ -83,11 +85,11 @@
 
 .ui-accordion-header-collapsed {
   border-top: 1px solid transparent;
-  border-bottom: 1px solid var(--color-vl-grey);
+  border-bottom: 1px solid var(--color-text_gray);
 }
 
 .ui-accordion-header-collapsed:first-child {
-  border-top-color: var(--color-vl-grey);
+  border-top-color: var(--color-text_gray);
 }
 
 .ui-state-focus {
@@ -125,12 +127,12 @@
 .ui-accordion-header-active {
   border-top: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
-  color: var(--color-studio);
+  color: var(--color-primary_light);
 }
 
 .ui-accordion-header-active::before  {
-  border: 1px solid var(--color-amethyst);
-  background-color: var(--color-mauve);
+  border: 2px solid var(--color-text_gray);
+  background-color: transparent;
 }
 
 .ui-accordion-header-active::after  {
@@ -138,27 +140,29 @@
 }
 
 .ui-accordion-content-active {
-  border-bottom: 1px solid var(--color-vl-grey);
+  border-bottom: 1px solid var(--color-text_gray);
 }
 
 .accordion__list {
   column-count: 4;
-  /*padding-top: 20px;*/
-  /*height: 200px;*/
+  height: 144px;
+}
+
+.accordion__item {
+  margin-bottom: 4px;
+  padding: 2px 0;
 }
 
 .accordion__btn {
-  margin-bottom: -1px;
-  padding-right: 2px;
+  padding: 2px;
   border-bottom: 1px solid transparent;
   text-align: left;
   color: var(--color-night-rider);
-  line-height: 32px;
   transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .accordion__btn:focus-visible {
-  outline: none;
+  /*outline: none;*/
   color: var(--color-white);
   background-color: var(--color-amethyst);
 }
@@ -176,13 +180,13 @@
 .accordion-content {
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  padding: 26px 0 0 8px;
 }
 
 .accordion-left__wrap {
   position: relative;
   margin-right: 24px;
-  width: 34%;
+  width: 22%;
   /*height: 189px;*/
   border: 2px solid var(--color-pink-sw);
 }
@@ -247,15 +251,19 @@
 }
 
 .guest-card__img {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .social {
-  margin-bottom: 12px;
+  margin-bottom: 7px;
+}
+
+.social__items {
+  margin-right: 30px;
 }
 
 .social svg {
-  margin-right: 32px;
+
   width: 24px;
   height: 24px;
 }
@@ -275,7 +283,7 @@
 }
 
 .guest-card__button {
-  padding: 12px 19px;
+  padding: 10px 18px;
   font-size: 16px;
   line-height: 16px;
   color: var(--color-primary_light);

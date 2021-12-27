@@ -81,7 +81,7 @@ const mySwiperPlaylists = new Swiper(playlistsSlider, {
   direction: 'horizontal',
 
   pagination: {
-    el: 'playlists-button__pagination',
+    el: '.playlists-button__pagination',
     type: 'fraction',
   },
 

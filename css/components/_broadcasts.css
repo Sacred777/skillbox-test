@@ -153,7 +153,7 @@
 }
 
 .broadcasts-slide {
-  border: 1px solid var(--color-light_color);
+  outline: 1px solid var(--color-light_color);
 }
 
 .broadcast-slide__wrapper {
