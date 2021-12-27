@@ -30,7 +30,7 @@
 .container {
   max-width: 1138px;
   margin: 0 auto;
-  padding: 0 14px;
+  padding: 0 9px;
 }
 
 .title-reset { /* h1, h2, h3, h4, h5, h6*/
@@ -91,6 +91,11 @@ input[type="search"]::-webkit-search-results-decoration {
   font-weight: 400;
   line-height: 1;
   color:var(--color-black);
+}
+
+.wrap {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .invisible {

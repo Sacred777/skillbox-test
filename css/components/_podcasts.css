@@ -25,10 +25,10 @@
 
 .podcasts-card__left {
   position: relative;
+  max-height: 140px;
 }
 
 .event-card__img {
-  /*height: 140px;*/
   max-width: 112px;
 }
 
@@ -37,7 +37,7 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  padding: 3px 7px;
+  padding: 3px 8px;
   font-size: 10px;
   line-height: 10px;
   background-color: var(--color-light_color);
@@ -54,20 +54,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
 }
 
 .podcasts-info__time {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 12px;
   line-height: 12px;
 }
 
 .podcasts-info__title {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   font-weight: normal;
   font-size: 20px;
   line-height: 20px;
@@ -79,35 +79,44 @@
   color: var(--color-text_gray);
 }
 
+.podcasts-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
 .actions__list {
   display: flex;
   align-items: center;
-  padding-left: 30px;
+  padding-left: 27px;
   border-top: 1px solid var(--color-light_color);
 }
 
+.actions__item {
+  padding: 4px 0;
+}
 
 .actions__item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 28px;
 }
 .actions__btn {
   /*display: flex;*/
   /*align-items: center;*/
-  padding: 7px 0;
+  padding: 3px 3px;
   font-size: 16px;
   line-height: 16px;
   color: var(--color-text_gray);
 }
 
 .actions__btn svg {
-  margin-right: 6px;
+  /*margin-right: 6px;*/
 }
 
 .podcasts__btn {
   display: block;
   margin: 0 auto;
-  padding: 25px 54px;
+  padding: 24px 53px;
   color: var(--color-primary);
   border-color: currentColor;
   background-color: transparent;

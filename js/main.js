@@ -20,7 +20,7 @@ const mySwiperBroadcasts = new Swiper(broadcastsSlider, {
   slidesPerColumnFill: 'row',
   slidesPerColumn: 2,
   slidesPerGroup: 3,
-  spaceBetween: 30,
+  spaceBetween: 28,
   direction: 'horizontal',
 
   // pagination: {
